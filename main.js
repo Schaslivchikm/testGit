@@ -1,1 +1,6 @@
-console.log('testing')
+testing();
+
+function testing(){
+    console.log('testing')
+}
+
