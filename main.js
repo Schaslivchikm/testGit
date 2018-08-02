@@ -1,4 +1,5 @@
 var file = document.querySelector('[type="file"]')
+var imagePreviewContainer = document.querySelector('.image-preview')
 
 file.addEventListener('change', function(){
     previewImage(this);
@@ -9,10 +10,8 @@ function previewImage(input) {
         var reader = new FileReader();
 
         reader.onload = function(e){
-            var image = document.createElement('img')
-            image.src = e.target.result;
-
-            input.parentNode.insertBefore(image, input)
+           imagePreviewContainer.classList.add('is-active');
+           imagePreviewContainer.style.backgroundImage = 'url(' + e.target.result + ')';
         }
 
         reader.readAsDataURL(input.files[0]);

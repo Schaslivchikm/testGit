@@ -3,3 +3,15 @@ body {
     font-size: 12px;
     line-height: 21px;
 }
+
+.image-preview {
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.image-preview.is-active {
+    padding-top: 100%;
+}
+.wrap-image-preview {
+    max-width: 400px;
+}
