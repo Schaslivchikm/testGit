@@ -8,7 +8,7 @@ file.addEventListener('change', function(){
 function previewImage(input) {
     if(input.files && input.files[0]){
         var reader = new FileReader();
-
+        console.log(input.files.length)
         reader.onload = function(e){
            imagePreviewContainer.classList.add('is-active');
            imagePreviewContainer.style.backgroundImage = 'url(' + e.target.result + ')';

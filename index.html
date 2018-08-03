@@ -8,14 +8,39 @@
     <link rel="stylesheet" href="style/style.css">
     <title>Git Lessons</title>
 </head>
+<style>
+    .player {
+        position: relative;
+        background: #000000;
+        width: 800px;
+        height: 400px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .player img {
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+    }
+    .player img:hover {
+        transform: scale(1.1);
+    }
+    .player .vol {
+        position: absolute;
+        cursor: pointer;
+        top: 15px;
+        right: 15px;
+        width: 46px;
+        height: 46px;
+        background: url('img/volume.svg') center center no-repeat;
+    }
+</style>
 <body>
-   <form action="#">
-       <div class="wrap-image-preview">
-            <div class="image-preview"></div>
-       </div>
- 
-       <input type="file" name="avatar" accept="image/*">
-   </form>
+    <div class="player">
+        <div class="vol"></div>
+        <img src="img/play.svg" alt="">
+    </div>
 </body>
 <script src="main.js"></script>
 </html>
