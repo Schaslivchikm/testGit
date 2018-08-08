@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style/style.css">
+    <title>Git Lessons</title>
+</head>
+<style>
+    .player {
+        position: relative;
+        background: url('img/bg.png')center center no-repeat;
+        width: 670px;
+        height: 375px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        border-radius: 4px;
+    }
+    .player img {
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+    }
+    .player img:hover {
+        transform: scale(1.1);
+    }
+    .volume {
+        position: absolute;
+        cursor: pointer;
+        top: 74px;
+        right: 15px;
+        width: 43px;
+        height: 43px;
+        border-radius: 5px;
+        background: url('img/volume-up.svg') center center no-repeat;
+        transition: all .2s ease-in-out;
+    }
+    .volume-mute {
+        background: url('img/volume-mute.svg') center center no-repeat;
+        transform: scale(0.8);
+    }
+    .resize {
+        background: url('img/resize-window-on.svg') center center no-repeat;
+        border-radius: 5px;
+        position: absolute;
+        cursor: pointer;
+        top: 15px;
+        right: 15px;
+        width: 43px;
+        height: 43px;
+    }
+
+</style>
+<body>
+    <div class="player">
+        <div class="volume"></div>
+        <div class="resize"></div>
+        <img src="img/play.svg" alt="">
+    </div>
+</body>
+
+<script>
+    var vol = document.querySelector('.volume');
+
+    vol.addEventListener('click', function(){
+        vol.classList.toggle('volume-mute');
+    })
+</script>
+</html>

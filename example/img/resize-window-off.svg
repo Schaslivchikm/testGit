@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43" height="43" viewBox="0 0 43 43">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        opacity: 0.26;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        stroke: url(#linear-gradient);
+        filter: url(#filter);
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="32.215" y1="38" x2="10.785" y2="5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#49c1f7"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="filter" x="3" y="4" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1.732"/>
+      <feFlood result="flood" flood-opacity="0.5"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feImage preserveAspectRatio="none" x="5" y="5" width="33" height="33" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzMiIGhlaWdodD0iMzMiIHZpZXdCb3g9IjAgMCAzMyAzMyI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIyMS41NDUiIHkxPSIzMyIgeDI9IjExLjQ1NSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwNDljZTIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNjFjYmZiIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSIzMyIgaGVpZ2h0PSIzMyIvPgo8L3N2Zz4K"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
+  </defs>
+  <rect id="Rectangle_3_copy_2" data-name="Rectangle 3 copy 2" class="cls-1" width="43" height="43" rx="2" ry="2"/>
+  <g style="fill: #fff; filter: url(#filter)">
+    <rect id="Rectangle_3_copy_2-2" data-name="Rectangle 3 copy 2" class="cls-2" x="5" y="5" width="33" height="33" rx="2" ry="2" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#Rectangle_3_copy_2-2" style="stroke: url(#linear-gradient); filter: none; fill: none"/>
+  <path id="Shape_1_copy_6" data-name="Shape 1 copy 6" class="cls-3" d="M14.142,30l4.2-4.2,1.61,1.61,0-4.369-4.369,0,1.61,1.61-4.2,4.2ZM30,14.142l-4.2,4.2,1.61,1.61-4.369,0,0-4.369,1.61,1.61,4.2-4.2Zm-17,0,4.2,4.2-1.61,1.61,4.369,0,0-4.369-1.61,1.61-4.2-4.2ZM28.858,30l-4.2-4.2-1.61,1.61,0-4.369,4.369,0-1.61,1.61,4.2,4.2Z"/>
+</svg>
